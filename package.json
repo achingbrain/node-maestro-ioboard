@@ -1,6 +1,6 @@
 {
 	"name": "pololu-maestro-ioboard",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Pololu Maestro implementation of IOBoard",
 	"main": "lib/pololu-maestro-ioboard.js",
 	"repository": {
