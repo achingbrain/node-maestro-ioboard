@@ -8,7 +8,7 @@
 		"url": "git://github.com/achingbrain/node-pololu-maestro-ioboard.git"
 	},
 	"dependencies": {
-		"pololu-maestro": "~2.0",
+		"pololu-maestro": "~2.1",
 		"winston": "~0.7",
 		"ioboard": "~1.0"
 	},
@@ -27,5 +27,5 @@
 	],
 	"author": "Alex Potsides",
 	"license": "BSD",
-	"readmeFilename": "Readme.md"
+	"readmeFilename": "README.md"
 }
