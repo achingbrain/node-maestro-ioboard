@@ -11,8 +11,10 @@ var five = require("johnny-five"),
 	MaestroIOBoard = require("pololu-maestro-ioboard"),
 	PololuMaestro = require("pololu-maestro");
 
+// attempts to automatically find an attached Maestro board in USB Dual Port mode
 PololuMaestro.find(PololuMaestro.SERIAL_MODES.USB_DUAL_PORT, function(maestro) {
 	new MaestroIOBoard(maestro, PololuMaestro.TYPES.MINI_MAESTRO_12, [
+		// this array contains the pin configuration
 		IOBoard.CONSTANTS.MODES.OUTPUT,
 		IOBoard.CONSTANTS.MODES.OUTPUT,
 		IOBoard.CONSTANTS.MODES.OUTPUT,
