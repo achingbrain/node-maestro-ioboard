@@ -1,6 +1,6 @@
 {
 	"name": "pololu-maestro-ioboard",
-	"version": "0.0.7",
+	"version": "1.0.0",
 	"description": "Pololu Maestro implementation of IOBoard",
 	"main": "lib/pololu-maestro-ioboard.js",
 	"repository": {
@@ -10,7 +10,7 @@
 	"dependencies": {
 		"pololu-maestro": "~2.1",
 		"winston": "~0.7",
-		"ioboard": "~1.0"
+		"ioboard": "~2.0"
 	},
 	"devDependencies": {
 		"nodeunit": "~0.8",
